@@ -1,6 +1,8 @@
 # Learning Tracker — Claude Certified Architect: Foundations (CCAR-F)
 
 > 🟢 Updated against the official Exam Guide. A few hands-on items below (prompt caching, "Structured Outputs") have been swapped for guide-confirmed exercises instead.
+>
+> Every "hands-on" item below has a matching free resource link and expanded step-by-step version in **`08_resources_and_practicals.md`** (or the Resources page in `index.html`) — open that alongside this tracker.
 
 Check items off by changing `[ ]` to `[x]` as you complete them. Most markdown editors (VS Code, Obsidian, Typora) render these as clickable checkboxes.
 

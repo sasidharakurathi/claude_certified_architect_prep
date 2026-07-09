@@ -23,7 +23,7 @@ The guide is subject to change without notice per its own cover page — if you 
 
 ## 🌐 Prefer a website to markdown files? Open `index.html`
 
-Double-click **`index.html`** in this folder (or right-click → Open with → your browser) for a proper study-guide website: sidebar navigation, styled tables and callouts instead of raw markdown, and an interactive 50-question practice exam where clicking an answer instantly shows right/wrong plus the explanation. It's a single self-contained file — works offline, no server needed.
+Double-click **`index.html`** in this folder (or right-click → Open with → your browser) for a proper study-guide website: sidebar navigation, styled tables and callouts instead of raw markdown, an interactive 62-question practice exam (50 original + the 12 official samples) where clicking an answer instantly shows right/wrong plus the explanation, and a **Resources & Practicals** page with clickable free learning links and hands-on exercises per domain. It's a single self-contained file — works offline, no server needed.
 
 Double-click **`tracker.html`** for the companion progress tracker: domain-mastery gauges, the six-week plan, and an exam-readiness checklist, all clickable. Both pages link to each other. Progress is saved locally in your browser (per-browser, not synced) — the markdown files remain the permanent, editable source of truth if you want to tweak content.
 
@@ -41,6 +41,7 @@ Double-click **`tracker.html`** for the companion progress tracker: domain-maste
 | `05_domain5_context_management_reliability.md` | Domain 5 (15%): Context Management & Reliability |
 | `06_anti_patterns.md` | The recurring "wrong answer" architectural mistakes the exam tests for |
 | `07_practice_exam.md` | 50 original practice questions + the 12 official sample questions from the Exam Guide, all with explanations |
+| `08_resources_and_practicals.md` | Free, verified learning links + hands-on exercises, organized per domain |
 | `glossary.md` | Quick-reference term definitions |
 | `LEARNING_TRACKER.md` | Checkbox-based 6-week study plan — check items off as you go |
 
@@ -49,22 +50,21 @@ Double-click **`tracker.html`** for the companion progress tracker: domain-maste
 1. Open `index.html` (or start with `00_exam_overview.md` if you prefer plain markdown) so you know the shape of the test.
 2. Work through domains **in weight order**: Domain 1 → 3/4 (tied) → 2 → 5. Heavier domains deserve more study hours.
 3. After each domain, read the matching section of `06_anti_patterns.md` — most wrong-answer choices on scenario questions are one of these patterns.
-4. Do `07_practice_exam.md` domain-by-domain as you finish each section, then do it cold as a full mock once you've covered everything.
-5. Check off progress in `LEARNING_TRACKER.md` (or the web tracker) as you go.
-6. Book the real exam once you're consistently scoring well above the passing bar on your own mock run.
+4. Use `08_resources_and_practicals.md` (or the Resources page in `index.html`) alongside each domain — click through to the free official docs/courses and actually do the hands-on practicals, don't just read.
+5. Do `07_practice_exam.md` domain-by-domain as you finish each section, then do it cold as a full mock once you've covered everything.
+6. Check off progress in `LEARNING_TRACKER.md` (or the web tracker) as you go.
+7. Book the real exam once you're consistently scoring well above the passing bar on your own mock run.
 
 ## Recommended external resources (official, free)
 
-All free, no partner access required, hosted on Anthropic Academy (`anthropic.skilljar.com`):
+All free, no partner access required, hosted on Anthropic Academy (`anthropic.skilljar.com`) or Anthropic's own docs. Every link was checked live — see `08_resources_and_practicals.md` for the full, clickable, per-domain breakdown with hands-on practicals attached to each one. Quick list:
 
-- Claude 101
-- Claude Platform 101
+- Claude 101, Claude Platform 101
 - Building with the Claude API
-- Introduction to Model Context Protocol
-- Model Context Protocol: Advanced Topics
-- Claude Code 101
-- Claude Code in Action
-- Introduction to Agent Skills
-- Introduction to Subagents
+- Introduction to Model Context Protocol, Model Context Protocol: Advanced Topics
+- Claude Code 101, Claude Code in Action
+- Introduction to Agent Skills, Introduction to Subagents
+- Official docs: Claude Agent SDK overview, Subagents, Hooks, Claude Code overview, CLAUDE.md/memory, MCP architecture, Define tools, Prompting best practices, Context windows
+- GitHub: `anthropics/claude-agent-sdk-demos`, `modelcontextprotocol/servers`, `modelcontextprotocol/inspector`, `anthropics/prompt-eng-interactive-tutorial`
 
 These are folded into the weekly plan in `LEARNING_TRACKER.md`.
