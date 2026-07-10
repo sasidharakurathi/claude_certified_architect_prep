@@ -27,6 +27,13 @@ Double-click **`index.html`** in this folder (or right-click → Open with → y
 
 Double-click **`tracker.html`** for the companion progress tracker: domain-mastery gauges, the six-week plan, and an exam-readiness checklist, all clickable. Both pages link to each other. Progress is saved locally in your browser (per-browser, not synced) — the markdown files remain the permanent, editable source of truth if you want to tweak content.
 
+**Or, if you prefer not to use the local files, you can access the live hosted version:**
+
+- 🌐 **Study Guide:** [Open the Live Study Guide](https://sasidhar-akurathi-notes.vercel.app/claude_certified_architect_prep#overview)
+- 📊 **Progress Tracker:** [Open the Live Progress Tracker](https://sasidhar-akurathi-notes.vercel.app/claude_certified_architect_prep/tracker)
+
+> **Note:** The live website provides the same features as the local files and can be accessed from any modern web browser. Progress is still saved locally in your browser, so it won't automatically sync across different browsers or devices.
+
 ## Folder contents
 
 | File | Purpose |
